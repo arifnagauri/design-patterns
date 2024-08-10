@@ -7,18 +7,8 @@ package io.arif.learn.simplefactory;
 public class DoorFactory {
 
     public static Door getDoor(float length, float height, String material) {
+        // depending on the parameter, type of object will be created...
         return new Door(length, height, material);
     }
 }
 
-class Door {
-    float length;
-    float height;
-    String material;
-
-    Door(float length, float height, String material) {
-        //...
-    }
-
-    //...
-}
