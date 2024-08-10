@@ -1,4 +1,4 @@
-package io.arif.learn;
+package io.arif.learn.singleton;
 
 public  class Singleton {
 
